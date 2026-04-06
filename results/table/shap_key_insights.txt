@@ -1,0 +1,35 @@
+KEY INSIGHTS FROM SHAP ANALYSIS
+================================================================================
+
+1. TOP DRIVERS OF ACCIDENT SEVERITY:
+   - Distance(mi), Month, Season_Winter, Start_Lng, Start_Lat
+
+2. LOCATION MATTERS:
+   - Geographic features (Start_Lng, Start_Lat) in top 5
+   - Certain areas consistently have higher severity
+
+3. TIME PATTERNS:
+   - Temporal features (Month) are important
+   - When accidents happen affects severity
+
+4. INFRASTRUCTURE SAFETY:
+   - Traffic_Signal impact severity
+   - Controlled intersections reduce severity
+
+5. WEATHER CONDITIONS:
+   - 5 weather features in top 20
+   - Confirms clear weather paradox from EDA
+
+
+MODEL INTERPRETATION SUMMARY
+================================================================================
+Model: XGBoost
+Samples Analyzed: 10,000
+Total Features: 78
+
+Top 5 Most Important Features:
+  3. Distance(mi): 0.8996
+  26. Month: 0.4756
+  75. Season_Winter: 0.2605
+  2. Start_Lng: 0.2028
+  1. Start_Lat: 0.1720
