@@ -61,3 +61,4 @@ All features below are boolean indicators of nearby points of interest:
 **Traffic_Calming**: Indicates presence of traffic_calming in a nearby location  
 **Traffic_Signal**: Indicates presence of traffic_signal in a nearby location  
 **Turning_Loop**: Indicates presence of turning_loop in a nearby location
+

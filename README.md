@@ -41,6 +41,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### 📊 Data Insights
+![EDA](assets/app_ui_1.png)
+
+### 🤖 Model Performance
+![Model](assets/model_results.png)
+
+### 🔮 Prediction Interface
+![App](assets/app_ui.png)
+
 ### Requirements
 - Python 3.8+
 - streamlit >= 1.28.0
@@ -60,7 +69,7 @@ streamlit run app.py
 
 | Model | Accuracy | F1-Macro | ROC-AUC | Operational Focus |
 |-------|----------|----------|---------|-------------------|
-| **XGBoost** | **86.3%** | 0.479 | 0.880 | General severity prediction |
+| **XGBoost** | **81.3%** | 0.479 | 0.880 | General severity prediction |
 | Random Forest | 66.6% | 0.428 | 0.849 | Better detection of rare severe cases |
 | Decision Tree | 65.3% | 0.408 | 0.803 | Interpretable rules |
 | Logistic Regression | 64.9% | 0.352 | 0.712 | Baseline comparison |
