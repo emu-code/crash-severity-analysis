@@ -21,7 +21,7 @@ This project analyzes traffic accident data to understand what conditions lead t
 
 ### Class Imbalance Note
 The dataset is heavily imbalanced (77% Severity 2), reflecting real-world accident distributions. Models were evaluated using multiple metrics beyond accuracy to ensure meaningful performance across all severity levels, particularly for rare but operationally critical severe accidents.
-**Smote was used to 
+ 
 
 ---
 
@@ -125,7 +125,7 @@ Analysis found that 93% of Severity 4 accidents occur at locations lacking traff
 ## 🏗️ Project Structure
 
 ```
-accident-severity-prediction/
+crash-severity-prediction/
 │
 ├── app.py                          # Streamlit dashboard
 ├── requirements.txt                # Dependencies
@@ -259,10 +259,18 @@ Switch between XGBoost, Random Forest, Decision Tree, and Logistic Regression us
   publisher = {Kaggle},
   url = {https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents}
 }
+
+@misc{us_accidents_dataset,
+  author = {Moosavi, Sobhan and Samavatian, Mohammad Hossein and Parthasarathy, Srinivasan, Radu Teodorescu,, Rajiv},
+  title = {Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights.},
+  year = {2019},
+  publisher = {Kaggle},
+  url = {https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents}
+}
 ```
 
 **Note:** This project uses a 500K-record sample from the full 7.7M-record dataset.
-
+[Sampled Version](https://drive.google.com/file/d/1U3u8QYzLjnEaSurtZfSAS_oh9AT2Mn8X/edit)
 ---
 
 ## 👤 Author
